@@ -1,0 +1,81 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.body{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+#principal-container {
+    width: 100%;
+    height:max-content;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.column1 {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#img-login {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.column2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 944px;
+    background-color: rgb(171, 205, 205);
+}
+
+.cuadro-login {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.titulo{
+    font-family:sans-serif;
+    color:rgb(41, 142, 144);
+    margin-top: 30px;
+
+}
+
+.sub-titulo{
+    font-family:sans-serif;
+    margin-bottom: 35px;
+}
+
+.saludo{
+    font-family:sans-serif;
+    color:rgb(41, 142, 144);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.msg-login{
+    text-align: center;
+    font-family:sans-serif;
+    margin-bottom: 40px;
+}
+
+.label-correo{
+    font-family: sans-serif;
+    margin-bottom: 40px;
+
+}

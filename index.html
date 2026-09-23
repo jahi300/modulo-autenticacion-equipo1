@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinica Veterinaria</title>
+    <title>VetCare - Clinica Veterinaria</title>
 </head>
-<body>
+
+<body class="body">
     <div id="principal-container">
-        <div clas="column-1">
-            
+        <div class="column1">
+            <img id="img-login" src="imagen-login.jpg" alt="">
+        </div>
+        <div class="column2">
+            <div class="cuadro-login">
+                <h1 class="titulo">VetCare</h1>
+                <p class="sub-titulo">Clínica Veterinaria</p>
+                <h1 class="saludo">¡Hola de nuevo!</h1>
+                <p class="msg-login">inicia sesión para gestionar las citas y salud de <br> tu mascota </p>
+
+                <label for="correo">Correo</label>
+                <input class="label-correo" type="email" id="correo" name="correo"
+                    placeholder="Digite su correo electronico ">
+                <label for="contraseña">Contraseña</label>
+                <input class="label-contraseña" type="passwork" id="contraseña" name="contraseña"
+                    placeholder="Digite su contraseña">
+                <button class="boton-iniciar-sesion">Iniciar Sesión</button>
+            </div>
         </div>
 
     </div>
-    
+
 </body>
+
 </html>
