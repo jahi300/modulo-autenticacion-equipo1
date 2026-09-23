@@ -51,3 +51,11 @@ entonces el sistema me redirige automáticamente al loging.
 Dado que estoy dentro del dashboard, 
 cuando hago clic en "cerrar sesión", 
 entonces el sistema destruye el token/sesión y me redirige al loging.
+
+# 4.Objetivo del modulo
+implementar el modulo integral de gestión de acceso e identidad de usuario que automatice los procesos de registro, autenticación y despliegue del panel de control(Dashboard).El módulo tiene como propósito garantizar el control de acceso a la plataforma mediante la validación segura de credenciales, la protección de rutas privadas y la personificación de la interfaz principal, asegurando así la confidencialidad y la integridad de la información del sistema.
+# 5.Integrantes del equipo
+-Deimar Alejandro Manrique Arismendi 
+-Jaider sabino triana
+-Javier mauricio barón cardona 
+
