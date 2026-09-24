@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #96c0c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor-principal {
+    width: 100%;
+    max-width: 420px;
+    background-color: rgb(150, 204, 206);
+    border: 1px solid #52637c;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.cuadro-login {
+    width: 100%;
+}
+
+.saludo {
+    margin: 0 0 5px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.msg-login {
+    color: #666;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #333;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+.sub-seccion {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px dashed #ccc;
+    background-color: #fafafa;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-emergencia {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+.boton-iniciar-sesion {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.boton-iniciar-sesion:hover {
+    background-color: #0056b3;
+}
+
+.boton-iniciar-sesion:active {
+    transform: scale(0.98);
+}
